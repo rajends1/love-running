@@ -97,7 +97,7 @@
   
   .secondary-nav {
       grid-area: nav;
-      background-color: lightgray;
+      background-color: lightblue;
       padding: 20px;
       flex-grow: 1;
   
