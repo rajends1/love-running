@@ -142,7 +142,7 @@
   
   aside {
       grid-area: sidebar;
-      background: lightgray;
+      background: lightpink;
       padding: 20px;
       
       section {
