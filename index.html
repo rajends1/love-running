@@ -1,93 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Tags for Search Engine -->
+    <meta name="Description" content="Love Running. Club for runners in Dublin, Ireland. Urban running, trail running.  Dublin docklands and Pheonix Park">
+    <!-- Title -->
     <title>Love Running</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
-
 <body>
+    <!-- Header -->
     <header>
-      <a href="/" title="Go to home page">
-        <img src="logo.png" alt="Site logo">
-      </a>
-      <nav aria-label="Primary">
-        <ul>
-          <li><a href="#">Primary nav</a></li>
-          <li><a href="#">Primary nav</a></li>
-          <li><a href="#">Primary nav</a></li>
-          <li><a href="#">Primary nav</a></li>
-        </ul>
-      </nav>
-      <form role="search" aria-label="site">
-        <label>
-          <span>Search</span>
-          <input type="search"/>
-        </label>
-        <button type="submit">Submit</button>
-      </form>
+        <a href="index.html">
+            <h1 id="logo">Love Running</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html">Sign-Up</a></li>
+            </ul>
+        </nav>
     </header>
-  
-    <nav aria-label="Secondary">
-      <ul>
-        <li><a href="#">Secondary nav222</a></li>
-        <li><a href="#">Secondary nav</a></li>
-        <li><a href="#">Secondary nav</a></li>
-        <li><a href="#">Secondary nav</a></li>
-        <li><a href="#">Secondary nav</a></li>
-    </ul>
-    </nav>
-  
-    <main>
-      <article>
-        <h1>Main article heading</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae sunt igitur communia vobis cum antiquis, iis sic utamur quasi concessis; Nihil acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat. Unum est sine dolore esse, alterum cum voluptate. Laboro autem non sine causa; Theophrasti igitur, inquit, tibi liber ille placet de beata vita? Nihil opus est exemplis hoc facere longius. Duo Reges constructio interrete. Graecum enim hunc versum nostis omnes Suavis laborum est praeteritorum memoria. Haec et tu ita posuisti, et verba vestra sunt.</p>
-  
-        <h2>Article secondary heading</h2>
-        <p>Nos commodius agimus. A mene tu? Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur. Tenesne igitur, inquam, Hieronymus Rhodius quid dicat esse summum bonum, quo putet omnia referri oportere? Nihilo beatiorem esse Metellum quam Regulum. Sed quanta sit alias, nunc tantum possitne esse tanta. Philosophi autem in suis lectulis plerumque moriuntur. Esse enim, nisi eris, non potes.</p>
-        <p>Sunt enim quasi prima elementa naturae, quibus ubertas orationis adhiberi vix potest, nec equidem eam cogito consectari. Id Sextilius factum negabat. Quorum sine causa fieri nihil putandum est. Quae autem natura suae primae institutionis oblita est?</p>
-      </article>
-    </main>
-  
-    <aside aria-label="Sidebar">
-      <section>
-        <h2>Share</h2>
-        <ul>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Email</a></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Recommended</h2>
-        <ul>
-          <li>
-            <article>
-              <h3><a href="#">Related article</a></h3>
-              <p>Article description</p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <h3><a href="#">Related article</a></h3>
-              <p>Article description</p>
-            </article>
-          </li>
-        </ul>
-      </section>
-    </aside>
-  
-    <footer>
-      <ul>
-        <li><a href="#">Footer link</a></li>
-        <li><a href="#">Footer link</a></li>
-        <li><a href="#">Footer link</a></li>
-        <li><a href="#">Footer link</a></li>
-        <li><a href="#">Footer link</a></li>
-      </ul>
-    </footer>
-  </body>
 
+    <!-- Main Content -->
+    <main>
+        <section id="hero">
+            <div id="cover-text">
+                <h2>Love Running</h2>
+                <h3>Dublin Docklands & Pheonix Park</h3>
+            </div>
+        </section>
+        <section id="reasons">
+            <h2>Why love running with us?</h2>
+            <div id="benefits">
+                <div id="benefits-physical">
+                    <div>
+                        <h3>Feel Healthy <i class="fa-solid fa-heart-pulse"></i></h3>
+                        <hr>
+                        <p>Since it improves aerobic fitness, running is a great way to help improve your cardiovascular health. Plus, it burns calories and can build strength.</p>
+                    </div>
+                    <div>
+                        <h3>Feel Strong <i class="fa-solid fa-dumbbell"></i></h3>
+                        <hr>
+                        <p>Running strengthens your heart by pumping blood more effectively through your body.</p>
+                    </div>
+                </div>
+                <div id="benefits-mental">
+                    <div>
+                        <h3>Feel Free <i class="fa-brands fa-fly"></i></h3>
+                        <hr>
+                        <p>Physical exercise, running included, is known to release endorphins in the brain. Endorphins make you more energetic, more awake and, yes, happier.</p>
+                    </div>
+                    <div>
+                        <h3>Get Social <i class="fa-solid fa-globe"></i></h3>
+                        <hr>
+                        <p>When we run with others, we can run farther and faster more easily. Social running can pull you out of a running funk or low mood, and inspire you to try new events.</p>
+                    </div>
+                </div>
+                <div id="benefits-image">
+                    <div id="circle-cover-bg"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meeting Time Section -->
+        <section id="meetups">
+            <h2 class="hidden-heading">Meet Up Times</h2>
+            <div id="times">
+                <div>
+                    <h3>Urban <i class="fa-solid fa-city"></i></h3>
+                    <p>Monday</p>
+                    <p>5K</p>
+                    <p>The Market Hotel</p>
+                    <p>18:30</p>
+                </div>
+                <div>
+                    <h3>Trail <i class="fa-solid fa-tree"></i></h3>
+                    <p>Wednesday</p>
+                    <p>10k</p>
+                    <p>The Pheonix Park</p>
+                    <p>18:30</p>
+                </div>
+                <div>
+                    <h3>Urban <i class="fa-solid fa-city"></i></h3>
+                    <p>Friday</p>
+                    <p>5K</p>
+                    <p>The Market Hotel</p>
+                    <p>18:30</p>
+                </div>
+                <div>
+                    <h3>Trail <i class="fa-solid fa-tree"></i></h3>
+                    <p>Saturday</p>
+                    <p>10K</p>
+                    <p>The Pheonix Park</p>
+                    <p>09:30</p>
+                </div>
+                <div>
+                    <h3>Coffee <i class="fa-solid fa-mug-hot"></i></h3>
+                    <p>Sunday</p>
+                    <p>0K</p>
+                    <p>The Market Hotel</p>
+                    <p>11:30</p>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <li><a href="https://en-gb.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://x.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit our X Page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our You Tube Page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram Page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/82f70701b4.js" crossorigin="anonymous"></script>
+</body>
 </html>

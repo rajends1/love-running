@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Tags for Search Engine -->
+    <meta name="Description" content="Love Running. Club for runners in Dublin, Ireland. Urban running, trail running.  Dublin docklands and Pheonix Park">
+    <!-- Title -->
+    <title>Love Running</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Love Running</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html" class="active">Sign-Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="sign-up">
+            
+            <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" class="text-input" required><br>   
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" class="text-input" required><br> 
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" name="email-address" class="text-input" required><br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" id="road" name="running-preference" value="road" checked><br>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" id="trail" name="running-preference" value="trail"><br>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" id="both" name="running-preference" value="both"><br>
+                    </div>
+                </div>
+                 <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <li><a href="https://en-gb.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://x.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit our X Page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our You Tube Page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram Page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/82f70701b4.js" crossorigin="anonymous"></script>
+</body>
+</html>
